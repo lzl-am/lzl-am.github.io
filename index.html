@@ -494,34 +494,22 @@ mjx-container[display="true"] + br {
 <h2 id="前置知识">前置知识</h2>
 <h3 id="vo-velocity-obstacle">VO: Velocity Obstacle</h3>
 <p>假设机器人 A 和机器人 B 在空间中相遇，各自的安全距离分别为 <span class="math inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.345ex;" xmlns="http://www.w3.org/2000/svg" width="3.105ex" height="1.891ex" role="img" focusable="false" viewbox="0 -683 1372.3 835.7"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><path data-c="1D445" d="M230 637Q203 637 198 638T193 649Q193 676 204 682Q206 683 378 683Q550 682 564 680Q620 672 658 652T712 606T733 563T739 529Q739 484 710 445T643 385T576 351T538 338L545 333Q612 295 612 223Q612 212 607 162T602 80V71Q602 53 603 43T614 25T640 16Q668 16 686 38T712 85Q717 99 720 102T735 105Q755 105 755 93Q755 75 731 36Q693 -21 641 -21H632Q571 -21 531 4T487 82Q487 109 502 166T517 239Q517 290 474 313Q459 320 449 321T378 323H309L277 193Q244 61 244 59Q244 55 245 54T252 50T269 48T302 46H333Q339 38 339 37T336 19Q332 6 326 0H311Q275 2 180 2Q146 2 117 2T71 2T50 1Q33 1 33 10Q33 12 36 24Q41 43 46 45Q50 46 61 46H67Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628Q287 635 230 637ZM630 554Q630 586 609 608T523 636Q521 636 500 636T462 637H440Q393 637 386 627Q385 624 352 494T319 361Q319 360 388 360Q466 361 492 367Q556 377 592 426Q608 449 619 486T630 554Z"/></g><g data-mml-node="mi" transform="translate(792,-152.7) scale(0.707)"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"/></g></g></g></g></svg></mjx-container></span> 和 <span class="math inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.339ex;" xmlns="http://www.w3.org/2000/svg" width="3.119ex" height="1.885ex" role="img" focusable="false" viewbox="0 -683 1378.7 833"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><path data-c="1D445" d="M230 637Q203 637 198 638T193 649Q193 676 204 682Q206 683 378 683Q550 682 564 680Q620 672 658 652T712 606T733 563T739 529Q739 484 710 445T643 385T576 351T538 338L545 333Q612 295 612 223Q612 212 607 162T602 80V71Q602 53 603 43T614 25T640 16Q668 16 686 38T712 85Q717 99 720 102T735 105Q755 105 755 93Q755 75 731 36Q693 -21 641 -21H632Q571 -21 531 4T487 82Q487 109 502 166T517 239Q517 290 474 313Q459 320 449 321T378 323H309L277 193Q244 61 244 59Q244 55 245 54T252 50T269 48T302 46H333Q339 38 339 37T336 19Q332 6 326 0H311Q275 2 180 2Q146 2 117 2T71 2T50 1Q33 1 33 10Q33 12 36 24Q41 43 46 45Q50 46 61 46H67Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628Q287 635 230 637ZM630 554Q630 586 609 608T523 636Q521 636 500 636T462 637H440Q393 637 386 627Q385 624 352 494T319 361Q319 360 388 360Q466 361 492 367Q556 377 592 426Q608 449 619 486T630 554Z"/></g><g data-mml-node="mi" transform="translate(792,-150) scale(0.707)"><path data-c="1D435" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"/></g></g></g></g></svg></mjx-container></span>，他们需要各自考虑下一秒的动作</p>
-<figure>
-<img src="/2024/08/25/interesting-algorithm/orca/3e41d384263b2c5dd03047f747363320.png" alt="3e41d384263b2c5dd03047f747363320">
-<figcaption aria-hidden="true">3e41d384263b2c5dd03047f747363320</figcaption>
-</figure>
+<p><img src="/2024/08/25/interesting-algorithm/orca/3e41d384263b2c5dd03047f747363320.png"></p>
 <p>为了避免两个机器人发生碰撞，我们需要确保每一帧的移动，两个机器人之间的距离大于等于
 <span class="math inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.345ex;" xmlns="http://www.w3.org/2000/svg" width="8.99ex" height="1.891ex" role="img" focusable="false" viewbox="0 -683 3973.5 835.7"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><path data-c="1D445" d="M230 637Q203 637 198 638T193 649Q193 676 204 682Q206 683 378 683Q550 682 564 680Q620 672 658 652T712 606T733 563T739 529Q739 484 710 445T643 385T576 351T538 338L545 333Q612 295 612 223Q612 212 607 162T602 80V71Q602 53 603 43T614 25T640 16Q668 16 686 38T712 85Q717 99 720 102T735 105Q755 105 755 93Q755 75 731 36Q693 -21 641 -21H632Q571 -21 531 4T487 82Q487 109 502 166T517 239Q517 290 474 313Q459 320 449 321T378 323H309L277 193Q244 61 244 59Q244 55 245 54T252 50T269 48T302 46H333Q339 38 339 37T336 19Q332 6 326 0H311Q275 2 180 2Q146 2 117 2T71 2T50 1Q33 1 33 10Q33 12 36 24Q41 43 46 45Q50 46 61 46H67Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628Q287 635 230 637ZM630 554Q630 586 609 608T523 636Q521 636 500 636T462 637H440Q393 637 386 627Q385 624 352 494T319 361Q319 360 388 360Q466 361 492 367Q556 377 592 426Q608 449 619 486T630 554Z"/></g><g data-mml-node="mi" transform="translate(792,-152.7) scale(0.707)"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"/></g></g><g data-mml-node="mo" transform="translate(1594.6,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"/></g><g data-mml-node="msub" transform="translate(2594.8,0)"><g data-mml-node="mi"><path data-c="1D445" d="M230 637Q203 637 198 638T193 649Q193 676 204 682Q206 683 378 683Q550 682 564 680Q620 672 658 652T712 606T733 563T739 529Q739 484 710 445T643 385T576 351T538 338L545 333Q612 295 612 223Q612 212 607 162T602 80V71Q602 53 603 43T614 25T640 16Q668 16 686 38T712 85Q717 99 720 102T735 105Q755 105 755 93Q755 75 731 36Q693 -21 641 -21H632Q571 -21 531 4T487 82Q487 109 502 166T517 239Q517 290 474 313Q459 320 449 321T378 323H309L277 193Q244 61 244 59Q244 55 245 54T252 50T269 48T302 46H333Q339 38 339 37T336 19Q332 6 326 0H311Q275 2 180 2Q146 2 117 2T71 2T50 1Q33 1 33 10Q33 12 36 24Q41 43 46 45Q50 46 61 46H67Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628Q287 635 230 637ZM630 554Q630 586 609 608T523 636Q521 636 500 636T462 637H440Q393 637 386 627Q385 624 352 494T319 361Q319 360 388 360Q466 361 492 367Q556 377 592 426Q608 449 619 486T630 554Z"/></g><g data-mml-node="mi" transform="translate(792,-150) scale(0.707)"><path data-c="1D435" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"/></g></g></g></g></svg></mjx-container></span></p>
 <p>如果我们以机器人 A 为参考系，将 A 看成一个静止的质点，那么 B
 就是一个半径为 <span class="math inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.345ex;" xmlns="http://www.w3.org/2000/svg" width="8.99ex" height="1.891ex" role="img" focusable="false" viewbox="0 -683 3973.5 835.7"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><path data-c="1D445" d="M230 637Q203 637 198 638T193 649Q193 676 204 682Q206 683 378 683Q550 682 564 680Q620 672 658 652T712 606T733 563T739 529Q739 484 710 445T643 385T576 351T538 338L545 333Q612 295 612 223Q612 212 607 162T602 80V71Q602 53 603 43T614 25T640 16Q668 16 686 38T712 85Q717 99 720 102T735 105Q755 105 755 93Q755 75 731 36Q693 -21 641 -21H632Q571 -21 531 4T487 82Q487 109 502 166T517 239Q517 290 474 313Q459 320 449 321T378 323H309L277 193Q244 61 244 59Q244 55 245 54T252 50T269 48T302 46H333Q339 38 339 37T336 19Q332 6 326 0H311Q275 2 180 2Q146 2 117 2T71 2T50 1Q33 1 33 10Q33 12 36 24Q41 43 46 45Q50 46 61 46H67Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628Q287 635 230 637ZM630 554Q630 586 609 608T523 636Q521 636 500 636T462 637H440Q393 637 386 627Q385 624 352 494T319 361Q319 360 388 360Q466 361 492 367Q556 377 592 426Q608 449 619 486T630 554Z"/></g><g data-mml-node="mi" transform="translate(792,-152.7) scale(0.707)"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"/></g></g><g data-mml-node="mo" transform="translate(1594.6,0)"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"/></g><g data-mml-node="msub" transform="translate(2594.8,0)"><g data-mml-node="mi"><path data-c="1D445" d="M230 637Q203 637 198 638T193 649Q193 676 204 682Q206 683 378 683Q550 682 564 680Q620 672 658 652T712 606T733 563T739 529Q739 484 710 445T643 385T576 351T538 338L545 333Q612 295 612 223Q612 212 607 162T602 80V71Q602 53 603 43T614 25T640 16Q668 16 686 38T712 85Q717 99 720 102T735 105Q755 105 755 93Q755 75 731 36Q693 -21 641 -21H632Q571 -21 531 4T487 82Q487 109 502 166T517 239Q517 290 474 313Q459 320 449 321T378 323H309L277 193Q244 61 244 59Q244 55 245 54T252 50T269 48T302 46H333Q339 38 339 37T336 19Q332 6 326 0H311Q275 2 180 2Q146 2 117 2T71 2T50 1Q33 1 33 10Q33 12 36 24Q41 43 46 45Q50 46 61 46H67Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628Q287 635 230 637ZM630 554Q630 586 609 608T523 636Q521 636 500 636T462 637H440Q393 637 386 627Q385 624 352 494T319 361Q319 360 388 360Q466 361 492 367Q556 377 592 426Q608 449 619 486T630 554Z"/></g><g data-mml-node="mi" transform="translate(792,-150) scale(0.707)"><path data-c="1D435" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"/></g></g></g></g></svg></mjx-container></span>
 的大圆。因此，A 在当前时刻的相对移动，只需在该大圆外就不会发生碰撞。</p>
 <p>由于移动过程是连续的，且瞬时时刻的移动应该是从起始点到终点的一条直线，不能够直接穿过大圆到达大圆的正后方，因此大圆相对指点位置的后方的锥形区域也是不可达的（如下图的灰色区域所示）</p>
-<figure>
-<img src="/2024/08/25/interesting-algorithm/orca/9bbc466275dd3dcb32edb42cffd22d31.png" alt="9bbc466275dd3dcb32edb42cffd22d31">
-<figcaption aria-hidden="true">9bbc466275dd3dcb32edb42cffd22d31</figcaption>
-</figure>
+<p><img src="/2024/08/25/interesting-algorithm/orca/9bbc466275dd3dcb32edb42cffd22d31.png"></p>
 <p>为了简化计算，VO
 算法将整个三角形区域假定为潜在的碰撞区域，并需要进行规避。</p>
 <p>刚才的讨论均基于笛卡尔坐标系进行。通过将该坐标系中的每个点除以时间变量
 t，我们可以得到速度向量场。理论上，如果智能体 A 和 B
 的相对速度向量位于红色三角形区域之外，那么它们就有足够的空间和时间来安全地避开对方，从而确保不会发生碰撞。</p>
-<figure>
-<img src="/2024/08/25/interesting-algorithm/orca/c91f8b536984fde6300e15ede4bfa252.png" alt="c91f8b536984fde6300e15ede4bfa252">
-<figcaption aria-hidden="true">c91f8b536984fde6300e15ede4bfa252</figcaption>
-</figure>
+<p><img src="/2024/08/25/interesting-algorithm/orca/c91f8b536984fde6300e15ede4bfa252.png"></p>
 <h3 id="vo-存在的问题抖动">VO 存在的问题：抖动</h3>
-<figure>
-<img src="/2024/08/25/interesting-algorithm/orca/C947641E-4EAC-470a-8964-D472CF026E2A.png" alt="C947641E-4EAC-470a-8964-D472CF026E2A">
-<figcaption aria-hidden="true">C947641E-4EAC-470a-8964-D472CF026E2A</figcaption>
-</figure>
+<p><img src="/2024/08/25/interesting-algorithm/orca/C947641E-4EAC-470a-8964-D472CF026E2A.png"></p>
 <p>如果机器人A和机器人B均采用了VO算法并相互对向移动，根据VO算法的特性，它们将在错位和速度旋转之间不断切换，这可能导致它们出现不规律的振动现象。尽管这种情况可能不会导致最终的碰撞，但两个机器人的这种振动行为看起来缺乏流畅性，不够优雅。</p>
 <p>VO
 算法之所以容易引发抖动现象，主要是因为其核心假设是其他物体保持恒定速度稳定前进。</p>
@@ -538,10 +526,7 @@ Reciprocal Collision Avoidance）</h2>
 <p>相比于 RVO 算法，ORCA
 算法将问题转化为线性规划问题来求解，这使得在多智能体系统中计算每个智能体的新速度变得更加高效。</p>
 <h3 id="在速度向量场上重新考虑碰撞问题">在速度向量场上重新考虑碰撞问题</h3>
-<figure>
-<img src="/2024/08/25/interesting-algorithm/orca/image-20240827171634529.png" alt="image-20240827171634529">
-<figcaption aria-hidden="true">image-20240827171634529</figcaption>
-</figure>
+<p><img src="/2024/08/25/interesting-algorithm/orca/image-20240827171634529.png"></p>
 <p>在图中，阴影部分表示可能发生碰撞的风险区域。该区域中的每一个点都代表一个速度矢量。如果机器人
 A 和 B 的相对速度向量 <span class="math inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.345ex;" xmlns="http://www.w3.org/2000/svg" width="2.707ex" height="1.891ex" role="img" focusable="false" viewbox="0 -683 1196.3 835.7"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><path data-c="1D449" d="M52 648Q52 670 65 683H76Q118 680 181 680Q299 680 320 683H330Q336 677 336 674T334 656Q329 641 325 637H304Q282 635 274 635Q245 630 242 620Q242 618 271 369T301 118L374 235Q447 352 520 471T595 594Q599 601 599 609Q599 633 555 637Q537 637 537 648Q537 649 539 661Q542 675 545 679T558 683Q560 683 570 683T604 682T668 681Q737 681 755 683H762Q769 676 769 672Q769 655 760 640Q757 637 743 637Q730 636 719 635T698 630T682 623T670 615T660 608T652 599T645 592L452 282Q272 -9 266 -16Q263 -18 259 -21L241 -22H234Q216 -22 216 -15Q213 -9 177 305Q139 623 138 626Q133 637 76 637H59Q52 642 52 648Z"/></g><g data-mml-node="mi" transform="translate(616,-152.7) scale(0.707)"><path data-c="1D434" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"/></g></g></g></g></svg></mjx-container></span> 和 <span class="math inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.339ex;" xmlns="http://www.w3.org/2000/svg" width="2.721ex" height="1.885ex" role="img" focusable="false" viewbox="0 -683 1202.7 833"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><path data-c="1D449" d="M52 648Q52 670 65 683H76Q118 680 181 680Q299 680 320 683H330Q336 677 336 674T334 656Q329 641 325 637H304Q282 635 274 635Q245 630 242 620Q242 618 271 369T301 118L374 235Q447 352 520 471T595 594Q599 601 599 609Q599 633 555 637Q537 637 537 648Q537 649 539 661Q542 675 545 679T558 683Q560 683 570 683T604 682T668 681Q737 681 755 683H762Q769 676 769 672Q769 655 760 640Q757 637 743 637Q730 636 719 635T698 630T682 623T670 615T660 608T652 599T645 592L452 282Q272 -9 266 -16Q263 -18 259 -21L241 -22H234Q216 -22 216 -15Q213 -9 177 305Q139 623 138 626Q133 637 76 637H59Q52 642 52 648Z"/></g><g data-mml-node="mi" transform="translate(616,-150) scale(0.707)"><path data-c="1D435" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"/></g></g></g></g></svg></mjx-container></span>
 落在这个阴影区域内，这意味着在它们保持当前最优速度不变的情况下，将会发生碰撞。为了避免这种情况，它们需要调整速度，确保相对速度矢量移出阴影区域。</p>
@@ -552,10 +537,7 @@ A
 A 可以安全选择的速度空间，即机器人 A
 可以在这个区域内自由选择速度矢量以避免碰撞。</p>
 <h3 id="考虑多智能体的情况">考虑多智能体的情况</h3>
-<figure>
-<img src="/2024/08/25/interesting-algorithm/orca/image-20240827171038344.png" alt="image-20240827171038344">
-<figcaption aria-hidden="true">image-20240827171038344</figcaption>
-</figure>
+<p><img src="/2024/08/25/interesting-algorithm/orca/image-20240827171038344.png"></p>
 <p>对机器人 A 进行策略规划，通过 ORCA
 算法，我们可以确定每个邻近机器人相对于 A
 的防撞半平面。利用线性规划，求解这些半平面的交集，如上图（b）所示的斜线阴影区域，便是机器人
@@ -715,47 +697,20 @@ A 可以安全移动的速度空间。简而言之，机器人 A
 </ul>
 <h2 id="新建一个虚拟手机">新建一个虚拟手机</h2>
 <h3 id="新建一个项目">新建一个项目</h3>
-<figure>
-<img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/1.jpg" alt="1">
-<figcaption aria-hidden="true">1</figcaption>
-</figure>
-<figure>
-<img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/2.png" alt="2">
-<figcaption aria-hidden="true">2</figcaption>
-</figure>
+<p><img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/1.jpg"></p>
+<p><img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/2.png"></p>
 <h3 id="创建虚拟手机">创建虚拟手机</h3>
-<figure>
-<img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/3.png" alt="Pasted image 20240822200515">
-<figcaption aria-hidden="true">Pasted image 20240822200515</figcaption>
-</figure>
-<figure>
-<img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/4.png" alt="Pasted image 20240822200555">
-<figcaption aria-hidden="true">Pasted image 20240822200555</figcaption>
-</figure>
-<figure>
-<img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/5.png" alt="Pasted image 20240822200652">
-<figcaption aria-hidden="true">Pasted image 20240822200652</figcaption>
-</figure>
-<figure>
-<img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/6.png" alt="Pasted image 20240822201500">
-<figcaption aria-hidden="true">Pasted image 20240822201500</figcaption>
-</figure>
+<p><img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/3.png"></p>
+<p><img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/4.png"></p>
+<p><img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/5.png"></p>
+<p><img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/6.png"></p>
 <h3 id="启动虚拟手机">启动虚拟手机</h3>
-<figure>
-<img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/7.png" alt="Pasted image 20240822201718">
-<figcaption aria-hidden="true">Pasted image 20240822201718</figcaption>
-</figure>
-<figure>
-<img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/8.png" alt="Pasted image 20240822201743">
-<figcaption aria-hidden="true">Pasted image 20240822201743</figcaption>
-</figure>
+<p><img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/7.png"></p>
+<p><img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/8.png"></p>
 <blockquote>
 <p>将 Calendar 拖到桌面</p>
 </blockquote>
-<figure>
-<img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/9.png" alt="Pasted image 20240822201952">
-<figcaption aria-hidden="true">Pasted image 20240822201952</figcaption>
-</figure>
+<p><img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/9.png"></p>
 <h2 id="安装-mobile-agent-框架">安装 Mobile-Agent 框架</h2>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 处理大文件</span></span><br><span class="line">git lfs install</span><br><span class="line">git <span class="built_in">clone</span> https://www.modelscope.cn/datasets/Datawhale/MobileAgent_V2_Demo_qwenVL.git</span><br><span class="line"><span class="built_in">cd</span> MobileAgent_V2_Demo_qwenVL</span><br></pre></td></tr></table></figure>
 <blockquote>
@@ -768,10 +723,7 @@ A 可以安全移动的速度空间。简而言之，机器人 A
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install -r win_requirements.txt</span><br></pre></td></tr></table></figure>
 <h2 id="运行-mobile-agent">运行 Mobile-Agent</h2>
 <h3 id="修改-run.py">修改 run.py</h3>
-<figure>
-<img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/10.png" alt="Pasted image 20240822202346">
-<figcaption aria-hidden="true">Pasted image 20240822202346</figcaption>
-</figure>
+<p><img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/10.png"></p>
 <h3 id="运行-mobile-agent-demo">运行 Mobile-Agent Demo</h3>
 <p><strong>在终端处执行 <code>python run.py</code></strong></p>
 <h2 id="代码分析">代码分析</h2>
@@ -781,10 +733,7 @@ A 可以安全移动的速度空间。简而言之，机器人 A
 <p>在 <code>run.py</code> 文件中 若程序为首轮执行，会先调用
 <code>get_perception_infos</code> 函数，获取初始屏幕信息</p>
 </blockquote>
-<figure>
-<img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/11.png" alt="Pasted image 20240824172450">
-<figcaption aria-hidden="true">Pasted image 20240824172450</figcaption>
-</figure>
+<p><img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/11.png"></p>
 <h4 id="get_perception_infos-函数">get_perception_infos 函数</h4>
 <blockquote>
 <p><code>get_perception_infos</code>
@@ -809,18 +758,12 @@ A 可以安全移动的速度空间。简而言之，机器人 A
 <p><strong>prompt 的整体拼接过程在 <code>get_action_promt</code>
 中</strong></p>
 </blockquote>
-<figure>
-<img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/12.png" alt="Pasted image 20240824221622">
-<figcaption aria-hidden="true">Pasted image 20240824221622</figcaption>
-</figure>
+<p><img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/12.png"></p>
 <h4 id="调用模型进行决策">调用模型进行决策</h4>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 初始化模型(You are a ...)  </span></span><br><span class="line">chat_action = init_action_chat()  </span><br><span class="line"><span class="comment"># 将chat_action  prompt_action  截屏文件整合成完整的prompt  </span></span><br><span class="line">chat_action = add_response(<span class="string">&quot;user&quot;</span>, prompt_action, chat_action, screenshot_file)  </span><br><span class="line"><span class="comment"># 调用 LLM 进行决策  </span></span><br><span class="line">output_action = call_with_local_file(chat=chat_action, api_key=qwen_api, model=<span class="string">&#x27;qwen-vl-plus&#x27;</span>)</span><br></pre></td></tr></table></figure>
 <h3 id="反思">反思</h3>
 <h4 id="记录执行动作前后的信息">记录执行动作前后的信息</h4>
-<figure>
-<img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/13.png" alt="Pasted image 20240824221537">
-<figcaption aria-hidden="true">Pasted image 20240824221537</figcaption>
-</figure>
+<p><img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/13.png"></p>
 <h4 id="llm-判断动作的执行效果">LLM 判断动作的执行效果</h4>
 <p><strong>让 LLM 对该动作的执行效果进行评估：</strong></p>
 <ul>
@@ -838,7 +781,7 @@ thought_history、summary_history 以及action_history 中</p>
 <code>completed_requirements</code> 中</p>
 <h2 id="问题解决">问题解决</h2>
 <h3 id="虚拟手机无法访问-google">虚拟手机无法访问 Google</h3>
-<p><img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/14.png" alt="Pasted image 20240824224009"> - Clash for Windows
+<p><img src="/2024/08/22/ai/mobile-agent/MobileAgent_Demo/14.png"> - Clash for Windows
 打开该按钮，此时虚拟手机也可使用宿主机的代理</p>
 
           
