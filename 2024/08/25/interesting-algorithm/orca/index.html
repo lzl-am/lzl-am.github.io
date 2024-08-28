@@ -83,12 +83,12 @@
 
 
 
-<meta name="description" content="问题定义 机器人  n 个机器人 假设机器人是圆盘形，并且在二维平面内移动 机器人 A 具有以下外部状态（其他机器人可以观察到该属性）  ：当前位置（圆盘中心） ：圆盘半径（也可以理解为安全距离） ：当前速度  机器人 A 具有以下内部状态（其他机器人无法观察到）  ：机器人的最大速度 ：首选速度（没有其他机器人挡路时会采用的速度）   目标  每个机器人独立">
+<meta name="description" content="ORCA（Optimal Reciprocal Collision Avoidance）算法是一种高效的多智能体避障策略，它通过将避障问题转化为线性规划问题来解决。在二维平面上，每个机器人独立选择新速度以避免碰撞，同时尽可能接近其首选速度。ORCA 算法考虑了机器人的外部状态如位置和速度，以及内部状态如最大速度和首选速度。它利用速度向量场来识别潜在的碰撞风险区域，并计算出每个机器人可以安全移动的速">
 <meta property="og:type" content="article">
 <meta property="og:title" content="ORCA 算法整理">
 <meta property="og:url" content="https://lzl-am.github.io/2024/08/25/interesting-algorithm/orca/index.html">
 <meta property="og:site_name" content="一根老麻花">
-<meta property="og:description" content="问题定义 机器人  n 个机器人 假设机器人是圆盘形，并且在二维平面内移动 机器人 A 具有以下外部状态（其他机器人可以观察到该属性）  ：当前位置（圆盘中心） ：圆盘半径（也可以理解为安全距离） ：当前速度  机器人 A 具有以下内部状态（其他机器人无法观察到）  ：机器人的最大速度 ：首选速度（没有其他机器人挡路时会采用的速度）   目标  每个机器人独立">
+<meta property="og:description" content="ORCA（Optimal Reciprocal Collision Avoidance）算法是一种高效的多智能体避障策略，它通过将避障问题转化为线性规划问题来解决。在二维平面上，每个机器人独立选择新速度以避免碰撞，同时尽可能接近其首选速度。ORCA 算法考虑了机器人的外部状态如位置和速度，以及内部状态如最大速度和首选速度。它利用速度向量场来识别潜在的碰撞风险区域，并计算出每个机器人可以安全移动的速">
 <meta property="og:locale">
 <meta property="og:image" content="https://lzl-am.github.io/2024/08/25/interesting-algorithm/orca/3e41d384263b2c5dd03047f747363320.png">
 <meta property="og:image" content="https://lzl-am.github.io/2024/08/25/interesting-algorithm/orca/9bbc466275dd3dcb32edb42cffd22d31.png">
@@ -97,7 +97,7 @@
 <meta property="og:image" content="https://lzl-am.github.io/2024/08/25/interesting-algorithm/orca/image-20240827171634529.png">
 <meta property="og:image" content="https://lzl-am.github.io/2024/08/25/interesting-algorithm/orca/image-20240827171038344.png">
 <meta property="article:published_time" content="2024-08-25T12:49:00.000Z">
-<meta property="article:modified_time" content="2024-08-27T12:56:48.729Z">
+<meta property="article:modified_time" content="2024-08-28T13:08:08.573Z">
 <meta property="article:author" content="A.M">
 <meta property="article:tag" content="避障算法">
 <meta property="article:tag" content="ORCA">
@@ -505,6 +505,10 @@ mjx-container[display="true"] + br {
 
           
 
+          
+              <div class="post-description">
+                  ORCA（Optimal Reciprocal Collision Avoidance）算法是一种高效的多智能体避障策略，它通过将避障问题转化为线性规划问题来解决。在二维平面上，每个机器人独立选择新速度以避免碰撞，同时尽可能接近其首选速度。ORCA 算法考虑了机器人的外部状态如位置和速度，以及内部状态如最大速度和首选速度。它利用速度向量场来识别潜在的碰撞风险区域，并计算出每个机器人可以安全移动的速度空间。与 RVO 算法相比，ORCA 算法在计算效率和实际应用的可行性上具有明显优势，适用于机器人群体在复杂环境中的协调避障。
+              </div>
           
 
         </div>

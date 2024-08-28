@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://lzl-am.github.io/2024/08/22/ai/mobile-agent/MobileAgent_Demo/</loc>
+    <lastmod>2024-08-28</lastmod>
+  </url>
+  <url>
     <loc>https://lzl-am.github.io/2024/08/28/interesting-algorithm/jps/</loc>
     <lastmod>2024-08-28</lastmod>
   </url>
@@ -10,10 +14,6 @@
   </url>
   <url>
     <loc>https://lzl-am.github.io/2024/08/25/interesting-algorithm/orca/</loc>
-    <lastmod>2024-08-27</lastmod>
-  </url>
-  <url>
-    <loc>https://lzl-am.github.io/2024/08/22/ai/mobile-agent/MobileAgent_Demo/</loc>
-    <lastmod>2024-08-27</lastmod>
+    <lastmod>2024-08-28</lastmod>
   </url>
 </urlset> 
