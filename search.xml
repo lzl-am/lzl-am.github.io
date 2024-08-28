@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>JPS 寻路算法</title>
+    <url>/2024/08/28/interesting-algorithm/jps/</url>
+    <content><![CDATA[<h2 id="概述">概述</h2>
+<p>JPS（Jump Point Search，跳点搜索）算法是对 A* 算法的一种优化。在 A*
+算法中，当前节点周围的所有可搜索邻居都会被加入到 OpenList
+中。<strong>JPS 算法则在保持 A*
+算法基本框架的基础上，采用了一种更为高效的策略来确定哪些点需要被加入到
+OpenList
+中。</strong>这种方法能够显著减少需要评估的节点数量，从而提高路径搜索的效率。</p>
+<h2 id="强迫邻居">强迫邻居</h2>
+<h2 id="参考文献">参考文献</h2>
+<ul>
+<li><a href="https://qiao.github.io/PathFinding.js/visual/">寻路算法可视化网站</a></li>
+<li><a href="http://grastien.net/ban/articles/hg-aaai11.pdf">JPS
+算法论文</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>有意思的算法</category>
+      </categories>
+      <tags>
+        <tag>寻路算法</tag>
+        <tag>JPS</tag>
+        <tag>Go</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>ORCA 算法整理</title>
     <url>/2024/08/25/interesting-algorithm/orca/</url>
     <content><![CDATA[<h2 id="问题定义">问题定义</h2>
@@ -96,7 +123,7 @@ A 可以安全移动的速度空间。简而言之，机器人 A
       </tags>
   </entry>
   <entry>
-    <title>A*算法</title>
+    <title>A* 算法</title>
     <url>/2024/08/27/interesting-algorithm/a-star/</url>
     <content><![CDATA[<h2 id="概述">概述</h2>
 <p>A* 算法一种图搜索算法，用于寻找一条从起始点到目标点的最短路径。</p>
@@ -182,8 +209,8 @@ h，可能会导致次优解被优先考虑，从而增加了错过最短路径�
       </categories>
       <tags>
         <tag>寻路算法</tag>
-        <tag>A*</tag>
         <tag>Go</tag>
+        <tag>A*</tag>
       </tags>
   </entry>
   <entry>
