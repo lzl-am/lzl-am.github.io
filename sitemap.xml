@@ -81,7 +81,14 @@
   </url>
   
   <url>
-    <loc>https://lzl-am.github.io/tags/JPS/</loc>
+    <loc>https://lzl-am.github.io/tags/A/</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lzl-am.github.io/tags/Go/</loc>
     <lastmod>2024-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -102,14 +109,7 @@
   </url>
   
   <url>
-    <loc>https://lzl-am.github.io/tags/A/</loc>
-    <lastmod>2024-08-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lzl-am.github.io/tags/Go/</loc>
+    <loc>https://lzl-am.github.io/tags/JPS/</loc>
     <lastmod>2024-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
