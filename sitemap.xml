@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/about/index.html</loc>
+    <loc>https://lzl-am.github.io/about/index.html</loc>
     
     <lastmod>2024-08-28</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2024/08/27/interesting-algorithm/a-star/</loc>
+    <loc>https://lzl-am.github.io/2024/08/27/interesting-algorithm/a-star/</loc>
     
     <lastmod>2024-08-28</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2024/08/25/interesting-algorithm/orca/</loc>
+    <loc>https://lzl-am.github.io/2024/08/25/interesting-algorithm/orca/</loc>
     
     <lastmod>2024-08-27</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2024/08/22/ai/mobile-agent/MobileAgent_Demo/</loc>
+    <loc>https://lzl-am.github.io/2024/08/22/ai/mobile-agent/MobileAgent_Demo/</loc>
     
     <lastmod>2024-08-27</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>https://lzl-am.github.io/tags/index.html</loc>
     
     <lastmod>2024-08-18</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>https://lzl-am.github.io/categories/index.html</loc>
     
     <lastmod>2024-08-18</lastmod>
     
@@ -57,7 +57,7 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>https://lzl-am.github.io/</loc>
     <lastmod>2024-08-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -65,56 +65,56 @@
 
   
   <url>
-    <loc>http://example.com/tags/%E5%AF%BB%E8%B7%AF%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://lzl-am.github.io/tags/%E5%AF%BB%E8%B7%AF%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2024-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/A/</loc>
+    <loc>https://lzl-am.github.io/tags/A/</loc>
     <lastmod>2024-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Go/</loc>
+    <loc>https://lzl-am.github.io/tags/Go/</loc>
     <lastmod>2024-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E9%81%BF%E9%9A%9C%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://lzl-am.github.io/tags/%E9%81%BF%E9%9A%9C%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2024-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/ORCA/</loc>
+    <loc>https://lzl-am.github.io/tags/ORCA/</loc>
     <lastmod>2024-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/AI/</loc>
+    <loc>https://lzl-am.github.io/tags/AI/</loc>
     <lastmod>2024-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Agent/</loc>
+    <loc>https://lzl-am.github.io/tags/Agent/</loc>
     <lastmod>2024-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Mobile/</loc>
+    <loc>https://lzl-am.github.io/tags/Mobile/</loc>
     <lastmod>2024-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -123,14 +123,14 @@
 
   
   <url>
-    <loc>http://example.com/categories/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://lzl-am.github.io/categories/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2024-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/Mobile-Agent/</loc>
+    <loc>https://lzl-am.github.io/categories/Mobile-Agent/</loc>
     <lastmod>2024-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
