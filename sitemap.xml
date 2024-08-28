@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://example.com/about/index.html</loc>
+    
+    <lastmod>2024-08-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2024/08/27/interesting-algorithm/a-star/</loc>
+    
+    <lastmod>2024-08-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2024/08/25/interesting-algorithm/orca/</loc>
+    
+    <lastmod>2024-08-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2024/08/22/ai/mobile-agent/MobileAgent_Demo/</loc>
+    
+    <lastmod>2024-08-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/index.html</loc>
+    
+    <lastmod>2024-08-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/index.html</loc>
+    
+    <lastmod>2024-08-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://example.com/</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>http://example.com/tags/%E5%AF%BB%E8%B7%AF%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/A/</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/Go/</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/%E9%81%BF%E9%9A%9C%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/ORCA/</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/AI/</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/Agent/</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/Mobile/</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>http://example.com/categories/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/Mobile-Agent/</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+</urlset>

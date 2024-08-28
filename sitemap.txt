@@ -1,0 +1,17 @@
+http://example.com/about/index.html
+http://example.com/2024/08/27/interesting-algorithm/a-star/
+http://example.com/2024/08/25/interesting-algorithm/orca/
+http://example.com/2024/08/22/ai/mobile-agent/MobileAgent_Demo/
+http://example.com/tags/index.html
+http://example.com/categories/index.html
+http://example.com/
+http://example.com/tags/%E5%AF%BB%E8%B7%AF%E7%AE%97%E6%B3%95/
+http://example.com/tags/A/
+http://example.com/tags/Go/
+http://example.com/tags/%E9%81%BF%E9%9A%9C%E7%AE%97%E6%B3%95/
+http://example.com/tags/ORCA/
+http://example.com/tags/AI/
+http://example.com/tags/Agent/
+http://example.com/tags/Mobile/
+http://example.com/categories/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E7%AE%97%E6%B3%95/
+http://example.com/categories/Mobile-Agent/
