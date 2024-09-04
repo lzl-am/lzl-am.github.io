@@ -81,6 +81,13 @@
   </url>
   
   <url>
+    <loc>https://lzl-am.github.io/tags/JPS/</loc>
+    <lastmod>2024-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://lzl-am.github.io/tags/A/</loc>
     <lastmod>2024-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -89,27 +96,6 @@
   
   <url>
     <loc>https://lzl-am.github.io/tags/Go/</loc>
-    <lastmod>2024-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lzl-am.github.io/tags/%E9%81%BF%E9%9A%9C%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2024-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lzl-am.github.io/tags/ORCA/</loc>
-    <lastmod>2024-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lzl-am.github.io/tags/JPS/</loc>
     <lastmod>2024-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -131,6 +117,20 @@
   
   <url>
     <loc>https://lzl-am.github.io/tags/Mobile/</loc>
+    <lastmod>2024-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lzl-am.github.io/tags/%E9%81%BF%E9%9A%9C%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2024-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lzl-am.github.io/tags/ORCA/</loc>
     <lastmod>2024-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
