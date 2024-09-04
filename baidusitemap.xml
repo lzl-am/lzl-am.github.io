@@ -2,7 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lzl-am.github.io/2024/08/22/ai/mobile-agent/MobileAgent_Demo/</loc>
-    <lastmod>2024-08-28</lastmod>
+    <lastmod>2024-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://lzl-am.github.io/2024/08/30/RL/markov/</loc>
+    <lastmod>2024-08-30</lastmod>
   </url>
   <url>
     <loc>https://lzl-am.github.io/2024/08/28/interesting-algorithm/jps/</loc>
